@@ -1,0 +1,291 @@
+html {
+    font-size: 1rem;
+    scroll-behavior: smooth;
+}
+
+.bg-dark {
+    background-color: #131313 !important;
+}
+
+p{
+  color: #444444;
+}
+
+.bg-primary {
+    background-color: #0066cc !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border: none;
+    color: white !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #a845cf !important;
+    transition: 0.5s;
+}
+
+#grid5 {
+    background: url('../img/006.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 140px;
+    border-radius: 0;
+}
+
+#texto1 {
+    margin-top: 20px;
+}
+
+#navServicos {
+    font-size: 0.9rem !important;
+    transition: 0.5s;
+}
+
+#navServicos:hover {
+    color: #a845cf !important;
+}
+
+.trabalhamos i {
+
+    color: #525252;
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: auto;
+  }
+
+.trabalhamos:hover i {
+    background: #1c6bd3;
+    color: #fff;
+    transition: all 0.5s;
+  }  
+
+.linhaReta {
+  position: absolute;
+  border-width: 2px;
+  top: 185px;
+  left: 15%;
+}
+
+.iconsTrabalhamos {
+  margin-top: 24px;
+}
+
+.faleconosco .info-wrap {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+.faleconosco .info {
+    background: #fff;
+  }
+  
+.faleconosco .info i {
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #77a8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    }
+  
+.faleconosco .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #2b2320;
+  }
+  
+.faleconosco .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #65534c;
+  }
+  
+.faleconosco .info:hover i {
+    background: #0066cc;
+    color: #fff;
+    transition: 1s;
+  }
+
+.faleconosco .formshadow{
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    padding: 30px;
+    background: #fff;
+  }
+  
+.faleconosco .formshadow .form-group {
+    padding-bottom: 8px;
+  }
+       
+.faleconosco input, .faleconosco textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  
+.faleconosco input {
+    height: 44px;
+  }
+  
+.faleconosco textarea {
+    padding: 10px 12px;
+  }
+  
+.faleconosco button[type="submit"] {
+    background: #0066cc;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+  
+.faleconosco button[type="submit"]:hover {
+    background: #75a5d4;
+  }
+
+/* ---------------------------------------------------------- */
+@media screen and (max-width: 1199px) {
+  .linhaReta {
+    position: absolute;
+    border-width: 2px;
+    top: 175px;
+    left: 15%;
+  }
+  .iconsTrabalhamos {
+    margin-top: 15px;
+  }
+
+  .iconTrabalhamos {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #bannerServicos{
+    height: 250px;
+  }
+  #tituloServicos {
+    font-size: 24px;
+    width: 230px !important;
+  }
+  #textoServicos {
+    font-size: 11px !important;
+    width: 335px !important;
+  }
+}  
+
+@media screen and (max-width: 991px){
+  .linhaReta {
+    position: absolute;
+    border-width: 2px;
+    top: 165px;
+    left: 15%;
+  }
+
+  .iconsTrabalhamos {
+    margin-top: 24px;
+  }
+  .iconTrabalhamos {
+    font-size: 16px;
+  }
+  #servicosAtendimentoBloco{
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 767px){
+  .linhaReta {
+    position: absolute;
+    border-width: 2px;
+    top: 185px;
+    left: 15%;
+  }
+  #blocoAtendimento{
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  #banner1 {
+    height: 300px;
+    display: table-cell;
+    vertical-align: bottom;
+  }
+  #tituloInicio{
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 470px) {
+  #banner1 {
+    height: 250px;
+  }
+  #tituloInicio {
+    font-size: 26px;
+  }
+  #textoInicio {
+    font-size: 16px;
+  }
+  #tituloServicos {
+    font-size: 22px;
+  }
+  #textoServicos {
+    width: 280px !important;
+  }
+  #textoBlocoServicos{
+    padding-right: 0px !important;
+    width: 260px !important;
+  }
+  #blocoTextos{
+    margin-left: 0px !important;
+  }
+  #tituloIndex {
+    font-size: 22px;
+  }
+  #grid2Texto{
+    font-size: 12px !important;
+  }
+  .trabalhamos i {
+    color: #525252;
+    width: 45px;
+    height: 45px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: auto;
+  }
+  .linhaReta {
+    position: absolute;
+    border-width: 2px;
+    top: 130px;
+    left: 15%;
+  }
+  .iconsTrabalhamos {
+    margin-top: 4px;
+  }
+  .iconTrabalhamos {
+    font-size: 8px;
+  }
+  #iconEntregaIndex i{
+    font-size: 24px !important;
+  }
+} 
+

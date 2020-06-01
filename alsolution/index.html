@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL SOLUTION</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).click(function (e) {
+            if (!$(e.target).is('.panel-body')) {
+                $('.collapse').collapse('hide');
+            }
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/8455a3d02b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="container-fluid px-0">
+        <nav class="navbar navbar-expand-lg navbar-light py-0 px-5 fixed-top" style="background-color: #0b0b0b;">
+            <a class="navbar-brand text-white" href="index.html">
+                <h1 class="h4">AL Solution</h1>
+            </a>
+            <button class="navbar-toggler py-3" data-toggle="collapse" data-target="#collapseAlt">
+                <i class="fas fa-bars fa-lg"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-center" id="collapseAlt">
+                <div class="navbar-nav" style="font-size: 0.9rem;">
+                    <div class="py-2">
+                        <a class="nav-item nav-link text-white mx-2" href="./index.html">Início <span
+                                class="sr-only">(Página
+                                atual)</span></a>
+                    </div>
+                    <div class="py-2">
+                        <a class="nav-item nav-link text-white mx-2" href="./servicos.html">Serviços</a>
+                    </div>
+                    <div class="py-2">
+                        <a class="nav-item nav-link text-white mx-2" href="./faleconosco.html">Fale Conosco</a>
+                    </div>
+                    <!-- <div class="bg-primary py-2">
+                        <a class="nav-item nav-link text-white mx-2" href="#">Consultar OS</a>
+                    </div> -->
+
+                </div>
+            </div>
+        </nav>
+        <div>
+            <!-- <p class="text-center text-danger my-auto" style="font-size: 0.9rem;"><span class="font-weight-bold">AL
+                    Solution</span> uma
+                empresa
+                especializada
+                em
+                reparo de dispositivos
+                Apple.
+            </p> -->
+        </div>
+    </header>
+
+    <main class="mt-5">
+        <!-- Banner Principal -->
+        <div class="card row text-white mx-0" id="banner1"
+            style="border-radius: 0; background-color: #0b0b0b !important;">
+            <div class="col-6 mw-100 text-center">
+                <img src="img/005a.png" alt="" class="img-fluid animated zoomIn">
+            </div>
+            <div class="card-img-overlay animated fadeInDown" id="texto1">
+                <h2 class="card-title text-center h2" id="tituloInicio">Reparo para seu iPhone</h2>
+                <p id="textoInicio" class="card-text text-center text-white-50"
+                    style="font-size: 1.1rem; margin-top: -5px;">
+                    Atendimento
+                    especializado
+                    em todos os
+                    dispositivos Apple.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row m-1">
+                <!-- Primeiro Grid -->
+                <div class="col-lg-6 card bg-white p-1 animated fadeInUp border-0">
+                    <div class="card-img-overlay text-center w-75 mx-auto">
+                        <h2 class="card-title h3 pt-2" id="tituloIndex">AL Solution</h2>
+                        <p class="card-text my-0" style="font-size: 0.9rem; background-color: #ffffffa4;">Precisando
+                            consertar seu aparelho? A AL
+                            Solution pode oferecer o Serviço confiável
+                            e de qualidade que seu Apple merece!
+                            <a class="nav-link py-0" href="./servicos.html#servicos">Saiba mais</a>
+                        </p>
+                    </div>
+                    <img src="img/002a.png" class="mw-100 card-img" alt="">
+                </div>
+                <!-- Segundo Grid  -->
+                <div class="col-lg-6 card p-1 animated fadeInUp border-0">
+                    <img src="img/007.jpg" class="card-img rounded-0" alt="">
+                    <div class="card-img-overlay text-center">
+                        <h2 class="card-title h3 pt-2 text-white" id="tituloIndex">Como Trabalhamos</h2>
+                        <p class="card-text my-0 text-white" style="font-size: 0.9rem;" id="grid2Texto">Mac, iPad,
+                            iPhone,
+                            Apple
+                            Watch,
+                            trabalhamos
+                            com reparos de qualquer dispositivos Apple com garantia de originalidade do produto! Conheça
+                            nossos serviços.
+                        </p>
+                        <hr class="linhaReta" style="border-color: #ffffff; width: 70%;">
+                        <div class="row iconsTrabalhamos text-white">
+                            <div class="col-3 trabalhamos" id="iconEntregaIndex">
+                                <i class="fas fa-clipboard fa-2x"></i>
+                                <p class="mt-2 iconTrabalhamos text-white">Atendimento</p>
+                            </div>
+                            <div class="col-3 trabalhamos" id="iconEntregaIndex">
+                                <i class="fas fa-stethoscope fa-2x"></i>
+                                <p class="mt-2 iconTrabalhamos text-white">Diagnóstico</p>
+                            </div>
+                            <div class="col-3 trabalhamos" id="iconEntregaIndex">
+                                <i class="fas fa-tools fa-2x"></i>
+                                <p class="mt-2 iconTrabalhamos text-white">Reparo</p>
+
+                            </div>
+                            <div class="col-3 trabalhamos" id="iconEntregaIndex">
+                                <i class="fas fa-truck fa-2x"></i>
+                                <p class="mt-2 iconTrabalhamos text-white">Entrega</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Terceiro Grid  -->
+                <div class="col-lg-6 card bg-white p-1 animated fadeInUp border-0">
+                    <div class="card-img-overlay text-center w-75 mx-auto">
+                        <h2 class="card-title h3 pt-2" id="tituloIndex">Macs</h2>
+                        <p class="card-text" style="font-size: 0.9rem; background-color: #ecececd0;">Diagnóstico e
+                            manutenção completa do seu
+                            computador.
+                            <a class="nav-link py-0" href="./servicos.html#dispositivos">Saiba mais</a>
+                        </p>
+                    </div>
+                    <img src="img/003.jpg" class="mw-100 card-img rounded-0" alt="">
+                </div>
+                <!-- Quarto Grid  -->
+                <div class="col-lg-6 card bg-white my-auto p-1 animated fadeInUp border-0">
+                    <div class="card-img-overlay text-center w-75 mx-auto">
+                        <h2 class="card-title h3 pt-2" id="tituloIndex">Reparo para iPhones</h2>
+                        <p class="card-text my-0 font-weight-bolder"
+                            style="font-size: 0.9rem; background-color: #ffffffb0;">Troca de telas e outros
+                            serviços para
+                            o
+                            seu smartphone.
+                            <a class="nav-link py-0" href="./servicos.html#dispositivos">Saiba mais</a>
+                        </p>
+
+                    </div>
+                    <img src="img/004a.jpg" class="mw-100" alt="">
+                </div>
+                <!-- Quinto Grid  -->
+                <div class="container p-1">
+                    <div id="grid5" class="col-lg-12 card bg-white animated fadeInUp border-0">
+                        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-end pr-5">
+                            <div class="text-center text-white" id="blocoAtendimento">
+                                <h2 class="card-title h3 pt-2" id="tituloIndex">Atendimento para Empresas</h2>
+                                <p class="card-text my-0 text-white" style="font-size: 0.9rem;">AL Solution
+                                    realiza atendimento
+                                    focado
+                                    para
+                                    empresas.
+                                </p>
+                                <a class="nav-link py-0" href="./servicos.html#empresas">saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="my-5">
+
+        <nav class="nav justify-content-center">
+            <a class="nav-link text-dark" id="navServicos" href="./index.html">Início</a>
+            <a class="nav-link text-dark" id="navServicos" href="./servicos.html">Serviços</a>
+            <a class="nav-link text-dark" id="navServicos" href="./faleconosco.html">Fale Conosco</a>
+            <!-- <a class="nav-link" id="navServicos" href="#">ConsultarOS</a> -->
+        </nav>
+        <p class="h4 text-center my-5">AL Solution</p>
+
+    </footer>
+
+
+</body>
+
+</html>

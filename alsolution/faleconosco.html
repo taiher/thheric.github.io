@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL SOLUTION</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).click(function (e) {
+            if (!$(e.target).is('.panel-body')) {
+                $('.collapse').collapse('hide');
+            }
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/8455a3d02b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="container-fluid px-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark py-0 px-5 fixed-top"
+            style="background-color: #0b0b0b;">
+            <a class="navbar-brand text-white" href="index.html">
+                <h1 class="h4">AL Solution</h1>
+            </a>
+            <button class="navbar-toggler py-3" data-toggle="collapse" data-target="#collapseAlt">
+                <i class="fas fa-bars fa-lg"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-center" id="collapseAlt">
+                <div class="navbar-nav" style="font-size: 0.9rem;">
+                    <div class="py-2">
+                        <a class="nav-item nav-link text-white mx-2" href="./index.html">Início <span
+                                class="sr-only">(Página
+                                atual)</span></a>
+                    </div>
+                    <div class="py-2">
+                        <a class="nav-item nav-link text-white mx-2" href="./servicos.html">Serviços</a>
+                    </div>
+                    <div class="py-2">
+                        <a class="nav-item nav-link text-white mx-2" href="./faleconosco.html">Fale Conosco</a>
+                    </div>
+                    <!-- <div class="bg-primary py-2">
+                        <a class="nav-item nav-link text-white mx-2" href="#">Consultar OS</a>
+                    </div> -->
+
+                </div>
+            </div>
+        </nav>
+        <div class="py-3">
+
+        </div>
+    </header>
+
+    <main>
+        <!-- Mapa -->
+        <div class="map-section">
+
+            <iframe style="border:0; width: 100%; height: 450px;"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.036861257817!2d-46.652180984475535!3d-23.56711956769133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b8c783b145%3A0xda5b7300d482b5b6!2sAv.%20Paulista%2C%20700%20-%20Jardim%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-000!5e0!3m2!1spt-BR!2sbr!4v1589091122501!5m2!1spt-BR!2sbr"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+
+        <div id="faleconosco" class="faleconosco">
+            <div class="container py-5">
+
+                <div class="row justify-content-center animated fadeInUp">
+
+                    <div class="col-lg-10">
+
+                        <div class="info-wrap">
+                            <div class="row">
+                                <div class="col-lg-4 info">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    <h4>Endereço:</h4>
+                                    <p>Av. Paulista, 700<br>São Paulo, SP</p>
+                                </div>
+
+                                <div class="col-lg-4 info mt-4 mt-lg-0">
+                                    <i class="fas fa-envelope"></i>
+                                    <h4>Email:</h4>
+                                    <p>alsolution@example.com</p>
+                                </div>
+
+                                <div class="col-lg-4 info mt-4 mt-lg-0">
+                                    <i class="fas fa-phone"></i>
+                                    <h4>Telefone:</h4>
+                                    <p>(11) 3359-4945<br>(11) 99512-0087</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row mt-5 justify-content-center animated fadeInUp">
+                    <div class="col-lg-10">
+                        <form class="formshadow">
+                            <div class="form-row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="nome" class="form-control" id="nome"
+                                        placeholder="Nome Completo" />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Seu Email" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="sobre" id="sobre" placeholder="Sobre" />
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="mensagem" rows="5" data-rule="required"
+                                    placeholder="Mensagem"></textarea>
+                            </div>
+                            <div class="mb-3">
+                            </div>
+                            <div class="text-center"><button type="submit">Enviar</button></div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="my-5">
+
+        <nav class="nav justify-content-center">
+            <a class="nav-link text-dark" id="navServicos" href="./index.html">Início</a>
+            <a class="nav-link text-dark" id="navServicos" href="./servicos.html">Serviços</a>
+            <a class=" nav-link text-dark" id="navServicos" href="./faleconosco.html">Fale Conosco</a>
+            <!-- <a class="nav-link" id="navServicos" href="#">ConsultarOS</a> -->
+        </nav>
+        <p class="h4 text-center my-5">AL Solution</p>
+
+    </footer>
+
+
+</body>
+
+</html>
